@@ -1,0 +1,11 @@
+# Logs
+logs
+*.log
+
+# Dependencies
+node_modules
+
+# IDE Configs
+.vscode/*
+!.vscode/extensions.json
+.idea
