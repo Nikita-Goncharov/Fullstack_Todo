@@ -1,7 +1,9 @@
+import {TodoList} from '../TodoList/TodoList'
+
 export const Content = () => {
   return (
     <div>
-      <h1>Content</h1>
+      <TodoList></TodoList>
     </div>
   );
 };
