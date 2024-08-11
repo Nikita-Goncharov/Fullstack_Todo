@@ -1,7 +1,9 @@
+import styles from './Register.module.scss'
+
 export const Register = () => {
   return (
     <div>
-      <button>Register</button>
+      <button className={styles.registerButton}>Register</button>
     </div>
   );
 };

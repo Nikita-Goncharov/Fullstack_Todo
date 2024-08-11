@@ -1,9 +1,10 @@
 import {TodoList} from '../TodoList/TodoList'
+import styles from './Content.module.scss'
 
 export const Content = () => {
   return (
-    <div>
-      <TodoList></TodoList>
+    <div className={styles.content}>
+      <TodoList/>
     </div>
   );
 };

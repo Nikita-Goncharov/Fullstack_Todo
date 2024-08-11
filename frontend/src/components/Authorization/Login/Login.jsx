@@ -1,7 +1,9 @@
+import styles from './Login.module.scss'
+
 export const Login = () => {
   return (
     <div>
-      <button>Login</button>
+      <button className={styles.loginButton}>Login</button>
     </div>
   );
 };

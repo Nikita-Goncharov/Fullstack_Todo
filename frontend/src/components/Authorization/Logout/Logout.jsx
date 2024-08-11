@@ -1,7 +1,9 @@
+import styles from './Logout.module.scss'
+
 export const Logout = () => {
   return (
     <div>
-      <button>Logout</button>
+      <button className={styles.logoutButton}>Logout</button>
     </div>
   );
 };

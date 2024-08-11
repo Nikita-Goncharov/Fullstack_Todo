@@ -1,0 +1,22 @@
+.todo {
+  display: flex;
+  flex-direction: row;
+  padding: 10px;
+  border: #002145 solid 2px;
+  margin: 20px 0;
+}
+
+.checkbox {
+  margin-right: 10px;
+}
+
+.text {
+  padding: 7px 0;
+  width: 100%;
+  border: none;
+  outline: none;
+}
+
+.text:focus {
+  outline: #a0a0a0 solid 1px;
+}
